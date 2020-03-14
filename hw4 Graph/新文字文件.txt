@@ -1,0 +1,142 @@
+
+6
+Add 3 0 13 0.91
+Add 3 2 87 0.97
+Add 1 4 47 0.99
+Add 5 3 25 0.97
+Add 2 4 55 0.89
+Add 1 2 77 0.97
+Add 1 0 40 0.80
+CreditExchange 0 1 100
+
+// correct
+6
+Add 3 0 13 0.91
+Add 3 2 87 0.97
+Add 1 4 47 0.99
+Add 5 3 25 0.97
+Add 2 4 55 0.89
+Add 1 2 77 0.97
+Add 1 0 40 0.80
+CreditExchange 0 4 100
+CreditExchange 2 4 100
+答案是84 96
+
+
+
+
+4
+Add 2 1 5 0.9
+Add 0 1 20 0.8
+Add 1 3 5 0.9
+Map
+ImportantBus
+Shortest 0 1
+Shortest 0 3
+CreditExchange 0 3 100
+CreditExchange 0 2 100
+Add 0 2 10 0.9
+Map
+ImportantBus
+Shortest 0 1
+Shortest 0 3
+CreditExchange 0 3 100
+CreditExchange 0 2 100
+Delete 1 3
+Map 
+ImportantBus
+Add 1 3 5 0.9
+Map
+答案
+30
+Yes
+20
+25
+72
+72
+20
+Yes
+15
+20
+72
+90
+Error
+Yes
+20
+
+
+
+
+// correct
+4
+Add 0 2 10 0.9
+Add 2 1 5 0.9
+Add 0 1 20 0.8
+Add 1 3 5 0.9
+Delete 1 3
+Map
+ImportantBus
+Add 1 3 5 0.9
+Map
+ImportantBus
+答案
+Error
+Yes
+20
+Yes
+
+
+
+
+// correct
+3
+Add 0 2 10 0.9
+Add 2 1 5 0.9
+Delete 2 1
+Map
+答案
+Error
+
+
+
+// correct
+5
+Add 0 2 10 0.9
+Add 2 1 5 0.9
+Add 3 4  20 0.8
+Map
+
+答案
+Error
+
+
+
+
+
+
+6
+Add 1 0 13 0.91
+Add 1 2 87 0.97
+Add 0 2 47 0.99
+Add 5 3 25 0.97
+Add 5 4 55 0.89
+Add 3 4 77 0.97
+Add 1 3 40 0.80
+ImportantBus
+答案
+Yes
+
+
+
+4
+Add 0 1 20 1.1
+Add 0 2 10 0.9
+Add 1 2 5 0.9
+Add 1 3 5 1.1
+CreditExchange2 2 3 100 2
+CreditExchange2 2 3 100 3
+
+99
+108
+
+
